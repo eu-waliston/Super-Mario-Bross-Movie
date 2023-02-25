@@ -1,16 +1,14 @@
-import React from "react"
-import styled from "styled-components";
+import React, {Fragment} from "react"
+
+import Home from "./components/Home/Home";
 
 const App = () => {
   return (
-    <DIV>
-
-    </DIV>
+    <Fragment>
+      <Home />
+    </Fragment>
   )
 }
 
-const DIV = styled.div `
-
-`
 
 export default App;
