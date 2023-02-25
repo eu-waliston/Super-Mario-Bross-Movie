@@ -1,0 +1,45 @@
+.right__menu {
+    z-index: 999999;
+    position: absolute;
+    float: right;
+    right: 50px;
+    top: 25px;
+}
+.right__menu_itens {
+    display: flex;
+    gap: 10px;
+
+
+}
+.btn--calendar {
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: capitalize;
+    background-color: #F9513E;
+    padding: 10px;
+    color: #fff;
+    border-radius: 25px;
+
+    transition: .5s;
+}
+.btn--calendar:hover {
+    background-color: #fff;
+    color: #F9513E;
+}
+
+.btn--share {
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: capitalize;
+    position: relative;
+    top: 10px;
+    color: #F9513E;
+    transition: .5s;
+    left: 20px;
+}
+
+.btn--share:hover {
+    color: #fff;
+
+}
+
