@@ -11,7 +11,7 @@
 
 
 }
-.btn--calendar {
+#btn--calendar {
     text-decoration: none;
     font-size: 18px;
     text-transform: capitalize;
@@ -22,12 +22,12 @@
 
     transition: .5s;
 }
-.btn--calendar:hover {
+#btn--calendar:hover {
     background-color: #fff;
     color: #F9513E;
 }
 
-.btn--share {
+#btn--share {
     text-decoration: none;
     font-size: 18px;
     text-transform: capitalize;
@@ -38,7 +38,7 @@
     left: 20px;
 }
 
-.btn--share:hover {
+#btn--share:hover {
     color: #fff;
 
 }

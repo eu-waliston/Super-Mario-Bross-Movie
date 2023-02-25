@@ -1,6 +1,5 @@
 .menu__nav {
     z-index: 99;
-    
 }
 
 .lt {
@@ -67,6 +66,7 @@
 
 .link__itens:hover {
     color: #F9513E;
+    transition: .5s;
 }
 
 .nav__itens__invisible {
