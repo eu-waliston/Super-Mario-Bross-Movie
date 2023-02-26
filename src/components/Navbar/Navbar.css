@@ -48,7 +48,9 @@
     top: 200px; 
     
 }
-
+.nav__itens  li {
+    list-style: none;
+}
 .img__nav{
     width: 70px;
     position: relative;
