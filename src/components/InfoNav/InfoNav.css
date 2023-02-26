@@ -101,6 +101,7 @@ SHARE POPUP
     background-color:#F9513E;
     transition: .5s;
     overflow: hidden;
+    width: 190px;
 }
 #popup-4 {
     background-color:#F9513E;
