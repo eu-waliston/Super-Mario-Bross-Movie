@@ -22,8 +22,8 @@ const Navbar = () => {
 
                     <li className="link__itens"><Link className="link__itens" to={"/"}>home</Link></li>
                     <li className="link__itens"><Link className="link__itens" to={"/trailers"}>trailers</Link></li>
-                    <li className="link__itens">synopsis</li>
-                    <li className="link__itens">characters</li>
+                    <li className="link__itens"><Link className="link__itens" to={"/synopsis"}>synopsis</Link></li>
+                    <li className="link__itens"><Link className="link__itens" to={"/characters"}>characters</Link></li>
                 </div>
             </div>
 
