@@ -4,6 +4,8 @@ import "./Synopsis.css";
 import Navbar from "../Navbar/Navbar";
 import InfoNav from "../InfoNav/InfoNav";
 
+import Modal3 from "./Modal3";
+
 const Synopsis = () => {
     return (
         <div className="synopsis">
@@ -17,6 +19,7 @@ const Synopsis = () => {
             <div className="right__side">
                 <div className="img__info">
                     <img src={require("../images/super-mario-bros.jpg")}  alt="logo" className="logo__img__fundo"/>
+                    <Modal3 />
                 </div>
 
                 <div className="text_info">

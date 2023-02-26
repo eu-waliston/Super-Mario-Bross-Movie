@@ -43,3 +43,16 @@
     left: 20%;
     
 }
+
+
+.info__nav__itens {
+    position: relative;
+    left: 85%;
+    top: 5px;
+    font-size: 28px;
+}
+
+.po_2 {
+    height: 850px;
+    width: 850px;
+}
