@@ -1,0 +1,25 @@
+.characters__section {
+    width: 100%;
+    height: 100vh;
+    background-color: #33C0FE;
+}
+
+.carousel-inner {
+    width: 450px;
+    position: relative;
+    top: 150px;
+    left: 35%;
+}
+
+.carousel-control-prev-icon {
+    position: relative;
+    top: 20%;
+    left: 90%;
+}
+
+.carousel-control-next-icon {
+    position: relative;
+    top: 20%;
+    right: 120%;
+}
+

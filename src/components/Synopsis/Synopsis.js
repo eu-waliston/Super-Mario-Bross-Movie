@@ -22,7 +22,7 @@ const Synopsis = () => {
                     <Modal3 />
                 </div>
 
-                <div className="text_info">
+                <div className="text_info container">
                     <p>Directed by Aaron Horvath and Michael Jelenic (collaborators on Teen Titans Go!, Teen <br /> Titans Go! To the Movies) from a screenplay by Matthew <br /> Fogel (The LEGO Movie 2: The Second Part, Illuminations’s Minions: The <br /> Rise of Gru), the film stars Chris Pratt as Mario, Anya Taylor-Joy as Princess <br /> Peach, Charlie Day as Luigi, Jack Black as Bowser, Keegan-Michael Key as <br /> Toad, Seth Rogen as Donkey Kong, Fred Armisen as Cranky Kong, Kevin <br /> Michael Richardson as Kamek and Sebastian Maniscalco as Spike.</p>
                     <br />
                     <p>The film is produced by Illumination founder and<br /> CEO Chris Meledandri and by Shigeru Miyamoto for Nintendo. The film will be co-financed by Universal<br /> Pictures and Nintendo and released worldwide by Universal Pictures.</p>
