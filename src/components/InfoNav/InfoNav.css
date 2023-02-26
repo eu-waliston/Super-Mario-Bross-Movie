@@ -72,10 +72,6 @@
     background-color:#F9513E;
 }
 
-#popup-4 {
-    background-color:#F9513E;
-}
-
 .pop_up_calendar h3 {
     margin-bottom: 10px;
     transition: .5s;
@@ -104,8 +100,13 @@ SHARE POPUP
     height: 105px;
     background-color:#F9513E;
     transition: .5s;
-    width: 192px;
+    width: 190px;
     overflow: hidden;
+}
+#popup-4 {
+    background-color:#F9513E;
+    width: 198px;
+    height: 115px;
 }
 
 .popup__item {
