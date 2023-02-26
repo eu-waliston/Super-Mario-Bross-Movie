@@ -101,9 +101,10 @@ hr {
 SHARE POPUP
 */
 .pop_up {
-    height: 100px;
+    height: 105px;
     background-color:#F9513E;
     transition: .5s;
+    width: 192px;
 }
 
 .popup__item {
