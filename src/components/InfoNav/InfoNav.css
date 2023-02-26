@@ -47,9 +47,14 @@
 
 #btn--share-fs {
     text-transform: uppercase;
-    color: #F9513E;
     text-align: center;
     font-size: 25px;
+
+    color: #F9513E;
+    background-color: #F9513E;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
 }
 
 #btn--share:hover {
@@ -66,7 +71,7 @@
 
 .top__info {
     text-align: center;
-    color: #F9513E;
+
 }
 
 hr {
@@ -92,6 +97,27 @@ hr {
 
 .itens__sd h3:hover  {
     color:#354044d7;
+}
+
+.web {
+    cursor: pointer;
+    font-weight: 200;
+    margin-top: 20px;
+    color: #F9513E;
+}
+
+.date {
+    position: relative;
+    top: 10px;
+    font-weight: 300;
+    color: #F9513E;
+}
+
+.ticket {
+    background-color: #F9513E;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
 }
 /*
 SHARE POPUP

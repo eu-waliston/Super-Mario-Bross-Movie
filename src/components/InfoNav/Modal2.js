@@ -33,8 +33,8 @@ export default function Modal1() {
                 <Box sx={style}>
                     <Typography id="modal-modal-title" variant="h6" component="h2">
                         <div className="top__info">
-                            <h3>Get Tickets</h3>
-                            <p>Friday, 07 Apr 2023</p>
+                            <h3 className='ticket'>Get Tickets</h3>
+                            <p className='date'>Friday, 07 Apr 2023</p>
                             <p className="web">www.thesupermariobros.movie</p>
                         </div>
                     </Typography>
