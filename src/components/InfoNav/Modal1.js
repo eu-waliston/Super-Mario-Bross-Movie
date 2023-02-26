@@ -9,7 +9,8 @@ const style = {
     top: '50%',
     left: '50%',
     transform: 'translate(-50%, -50%)',
-    width: 400,
+    width: 240,
+    height: 190,
     bgcolor: 'background.paper',
     border: '2px solid #000',
     boxShadow: 24,
@@ -35,7 +36,7 @@ export default function Modal1() {
                         <h1 id="btn--share-fs">Share</h1>
                     </Typography>
                     <Typography id="modal-modal-description" sx={{ mt: 2 }}>
-                        <div className="pop_up">
+                        <div className="pop_up brand_mil">
                             <i class="popup__item bi bi-facebook"></i>
                             <i class="popup__item bi bi-twitter"></i>
                             <i class="popup__item bi bi-instagram"></i>

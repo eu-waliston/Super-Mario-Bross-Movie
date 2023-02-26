@@ -56,3 +56,51 @@
     height: 850px;
     width: 850px;
 }
+
+/*
+====== Respnsivity =======
+*/
+
+@media screen and (max-width: 1204px) {
+    .left__side h2 {
+        font-size: 23px;
+        top: 120px;
+    } 
+
+    .logo__img__fundo {
+        margin-top: 30%;
+        margin-left: 50%;
+    }
+
+    .info__nav__itens {
+        left: 75%;
+    }
+
+    .text_info  p{
+        font-size: 14px;
+        text-align: left;
+        width: 70%;
+    }
+
+    .text_info {
+        left: 18%;
+        top: 20%;
+    }
+
+    .po_2 {
+        height: 550px;
+        width: 600px;
+    }
+
+    .dwe{
+        width: 550px;
+    }
+
+    .bi-arrows-angle-expand {
+        display: none;
+    }
+
+    .info__nav__itens {
+        left: 65%;
+    }
+}

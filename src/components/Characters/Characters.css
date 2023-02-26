@@ -23,3 +23,16 @@
     right: 120%;
 }
 
+
+/*
+======= responsivity =======
+*/
+
+@media screen and (max-width: 1204px) {
+    .carousel-inner {
+        width: 300px;
+        position: relative;
+        top: 70px;
+        left: 33%;
+    }
+}

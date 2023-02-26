@@ -9,12 +9,11 @@ const style = {
     top: '50%',
     left: '50%',
     transform: 'translate(-50%, -50%)',
-    width: 800,
-    bgcolor: 'background.paper',
+    maxWidth: 800,
+    bgcolor: 'transparent',
     border: 'none',
     boxShadow: 24,
     p: 2,
-    
 };
 
 export default function Modal3() {

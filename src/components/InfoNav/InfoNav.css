@@ -48,12 +48,12 @@
 #btn--share-fs {
     text-transform: uppercase;
     text-align: center;
-    font-size: 25px;
+    font-size: 18px;
 
     color: #F9513E;
     background-color: #F9513E;
     color: #fff;
-    padding: 20px;
+    padding: 8px;
     border-radius: 10px;
 }
 
@@ -93,6 +93,8 @@ hr {
 .itens__sd  h3 {
     transition: .5s;
     margin-bottom: 20px;
+    font-size: 15px;
+    text-align: center;
 }
 
 .itens__sd h3:hover  {
@@ -102,8 +104,12 @@ hr {
 .web {
     cursor: pointer;
     font-weight: 200;
-    margin-top: 20px;
+    margin-top: 18px;
     color: #F9513E;
+    font-size: 15px;
+    text-align: center;
+    position: relative;
+    left: -10px;
 }
 
 .date {
@@ -111,13 +117,15 @@ hr {
     top: 10px;
     font-weight: 300;
     color: #F9513E;
+    font-size: 18px;
 }
 
 .ticket {
     background-color: #F9513E;
     color: #fff;
-    padding: 20px;
+    padding: 10px;
     border-radius: 10px;
+    font-size: 19px;
 }
 /*
 SHARE POPUP
@@ -132,16 +140,31 @@ SHARE POPUP
 
 .popup__item {
     position: relative;
-    margin-right: 10px;
-    margin-left: 10%;
-    font-size: 30px;
-    padding: 8px;
-    bottom: -5px;
+    font-size: 20px;
+    bottom: 5px;
     transition: .5s;
     color:#F9513E;
+    left: 25%;
 }
 
 .popup__item:hover {
     color:#ccd3d6c7;
     border-radius: 10px;
+}
+
+.brand_mil {
+    display: grid;
+    grid-template-columns: repeat(3, 50px);
+}
+
+/*
+===== Responsivity ======
+*/
+
+@media screen and (max-width: 1024px){
+
+    #btn--calendar, #btn--share {
+        font-size: 15px;
+    }
+
 }

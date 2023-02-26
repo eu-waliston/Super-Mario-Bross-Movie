@@ -38,7 +38,6 @@
 
 .itens {
     position: relative;
-    position: relative;
     background-color: transparent;
     left: 90px;
     top: 120px;
@@ -55,4 +54,34 @@
 #widget14 {
     max-width: 100%;
     max-height: 100%;
+}
+
+/*
+===== Responsivity =======
+*/
+
+@media screen and (max-width: 1024px) {
+    .image_btn1,
+    .image_btn2 {
+        width: 150px;
+        border: none;
+    
+    }
+
+    .itens {
+        left: 110px;
+        top: 100px;
+    }
+
+    .left__menu p {
+        left: -105px;
+    }
+
+    .vide__section {
+        position: absolute;
+        top: 100px;
+        height: 70vh;
+        width: 56%;
+        left: 415px;
+    }
 }
