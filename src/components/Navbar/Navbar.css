@@ -69,6 +69,10 @@
     transition: .5s;
 }
 
+.active {
+    color: #F9513E
+}
+
 .nav__itens__invisible {
     z-index: 99;
     display: none;

@@ -1,9 +1,15 @@
 import React from "react";
 import "./Navbar.css"
+import { Link } from "react-router-dom";
 
 
 const Navbar = () => {
     const [isNavbar, setIsNavbar] = React.useState(true);
+
+    let [changeText, setChangeText] = React.useState(true);
+    const handleChange = () => {
+        return setChangeText(!changeText);
+    }
 
     return (
         <div className="menu__nav">
@@ -14,10 +20,10 @@ const Navbar = () => {
                 <div className="nav__itens">
                     <img src={require("../images/logo.png")} alt="logo" className="img__nav" />
 
-                    <a className="link__itens" href="/">home</a>
-                    <a className="link__itens" href="/">trailer</a>
-                    <a className="link__itens" href="/">synopsis</a>
-                    <a className="link__itens" href="/">characters</a>
+                    <li className="link__itens"><Link className="link__itens" to={"/"}>home</Link></li>
+                    <li className="link__itens"><Link className="link__itens" to={"/trailers"}>trailers</Link></li>
+                    <li className="link__itens">synopsis</li>
+                    <li className="link__itens">characters</li>
                 </div>
             </div>
 
