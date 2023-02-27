@@ -67,6 +67,10 @@ i:hover {
     cursor: pointer;
     color: #F9513E;
 }
+
+.video__container {
+    height: 600px;
+}
 /*
 ====== Responsivity =====
 */

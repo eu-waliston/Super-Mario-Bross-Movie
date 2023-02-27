@@ -3,14 +3,18 @@ import "./Home.css"
 
 import backgroundIMG from "../images/fundo.png";
 
+import VideoModal from "./VideModal";
+
 const Home = () => {
+
+
     return (
         <div style={{ backgroundImage: `url(${backgroundIMG})` }} className="Home">
             <img src={require("../images/mario_logo.png")} alt="mario logo" className="mario_logo" />
             <div className="info">
                 <h2>only in theatres</h2>
                 <h1>april 7</h1>
-                <a className="btn" href="/">watch trailer</a>
+                <VideoModal  className="btn"/>
             </div>
 
             <div className="link">
@@ -19,6 +23,8 @@ const Home = () => {
                 <i class="bi bi-instagram"></i>
                 <i class="bi bi-youtube"></i>
             </div>
+
+            
         </div>
     )
 }
